@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'website';
+    src:  url('../webfonts/website.eot');
+    src:  url('../webfonts/website.eot') format('embedded-opentype'),
+      url('../webfonts/website.ttf') format('truetype'),
+      url('../webfonts/website.woff') format('woff'),
+      url('../webfonts/website.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="tab-"], [class*=" tab-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'website' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .tab-facebook:before {
+    content: "\e901";
+    color: #2c7566;
+  }
+  .tab-hamburger:before {
+    content: "\e902";
+    color: #fff;
+  }
+  .tab-instagram:before {
+    content: "\e903";
+    color: #2c7566;
+  }
+  .tab-pinterest:before {
+    content: "\e904";
+    color: #2c7566;
+  }
+  .tab-twitter:before {
+    content: "\e905";
+    color: #2c7566;
+  }
+  .tab-logo:before {
+    content: "\e906";
+  }
